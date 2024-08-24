@@ -26,7 +26,7 @@ nav {
 
 nav.shrink {
     padding: 12px 0;
-    background: rgb(255, 255, 255, 0.8);
+    background: rgb(255, 255, 255, 1);
 }
 
 nav .container {
@@ -115,12 +115,13 @@ nav .hamburger {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('pexels-albinberlin-906982.jpg') no-repeat center center/cover;
+    background: url('pexels2.jpg') no-repeat center center/cover;
     opacity: 0.9; /* Adjust this value for more or less opacity */
     z-index: -1; /* Ensure the background stays behind the text */
 }
 
 .hero-content {
+    padding-top: 50px;
     position: relative; /* Ensure text stays above the background */
     z-index: 1;
     max-width: 600px;
@@ -365,7 +366,7 @@ footer .social-media {
     nav .menu.active {
         display: flex;
         flex-direction: column;
-        background: rgba(51, 51, 51, 1);
+        background: rgb(255, 255, 255);
         position: absolute;
         top: 100px;
         right: 0;
