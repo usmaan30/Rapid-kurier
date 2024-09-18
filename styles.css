@@ -97,7 +97,7 @@ nav .hamburger {
 }
 
 /* Hero Section */
-.hero {
+#home {
     position: relative;
     color: white;
     height: 100vh;
@@ -108,7 +108,7 @@ nav .hamburger {
     overflow: hidden;
 }
 
-.hero::before {
+#home::before {
     content: '';
     position: absolute;
     top: 0;
@@ -127,7 +127,7 @@ nav .hamburger {
     max-width: 600px;
 }
 
-.hero h1 {
+#home h1 {
     font-size: 3em;
     margin-bottom: 20px;
     padding: 15px;
@@ -135,14 +135,14 @@ nav .hamburger {
     background-color: rgb(56, 77, 58);
 }
 
-.hero h1 span {
+#home h1 span {
     color: #f39c12;
     background-color: rgb(56, 77, 58);
     border-radius: 20px;
 
 }
 
-.hero p {
+#home p {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
